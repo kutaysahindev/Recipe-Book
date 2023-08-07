@@ -183,6 +183,12 @@ main {
   max-width: 60rem;
   margin: 0 auto;
   padding: 2rem;
+  text-align: center;
+}
+
+.recipe-page img {
+  max-width: 100%;
+  height: auto;
 }
 
 .recipe-page h2 {
@@ -193,6 +199,10 @@ main {
 .recipe-page p {
   margin-top: 0.8rem;
   font-size: 1.6rem;
+}
+
+.ing-list {
+  list-style: none;
 }
 
 .back-btn {
