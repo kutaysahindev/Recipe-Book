@@ -66,8 +66,9 @@ main {
 .welcome-image,
 .recipe-page img {
   position: relative;
-  max-width: 100%;
+  max-width: 100vh;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .welcome-image img {
