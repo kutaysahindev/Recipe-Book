@@ -46,10 +46,13 @@ The Recipe Book project is designed to demonstrate my proficiency in HTML and CS
 ## Getting Started
 
 1. Clone this repository to your local machine using:
+   ```sh
    git clone https://github.com/kutaysahindev/Recipe-Book.git
+   ```
 2. Navigate to the project directory:
+   ```sh
    cd recipe-book
-
+   ```
 
 ## Usage
 
