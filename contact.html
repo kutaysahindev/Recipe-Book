@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact - Kutay Chef's Recipe Book</title>
+    <style>
+      /* Additional CSS for Contact Page */
+      .contact-section {
+        text-align: center;
+        padding: 4rem 0;
+        font-size: 1.4rem;
+      }
+
+      .contact-form {
+        margin-top: 2rem;
+      }
+
+      .contact-form label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 0.6rem;
+        border: 1px solid #ccc;
+        border-radius: 0.4rem;
+        margin-bottom: 1rem;
+      }
+
+      .contact-form button {
+        background-color: #beb7a4;
+        color: #fff;
+        padding: 0.6rem 1rem;
+        border: none;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .contact-form button:hover {
+        background-color: #938d7b;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p>
+          We'd love to hear from you! If you have any questions, suggestions, or
+          feedback, please don't hesitate to reach out to us.
+        </p>
+        <div class="contact-form">
+          <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact-info">
+        <p>Contact: sahinkutay.ie@gmail.com</p>
+      </div>
+      <div class="copyright">
+        <p>
+          © 2023 All rights reserved |
+          <a href="https://www.linkedin.com/in/kutaysahin/">Kutay Şahin</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
